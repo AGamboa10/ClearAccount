@@ -61,5 +61,11 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClearAccount.BussinessEntities\ClearAccount.BussinessEntities.csproj">
+      <Project>{d0cd3a68-7d33-4670-96f2-3230f4a52114}</Project>
+      <Name>ClearAccount.BussinessEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

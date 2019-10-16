@@ -1,0 +1,13 @@
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccount.BussinessLogicLayer.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccount.BussinessLogicLayer.pdb
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccounnt.DataAccessLayer.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccount.BussinessEntities.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccounnt.DataAccessLayer.pdb
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccounnt.DataAccessLayer.dll.config
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccount.BussinessEntities.pdb
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\ClearAccount.BussinessEntities.dll.config
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.csproj.CopyComplete
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.pdb

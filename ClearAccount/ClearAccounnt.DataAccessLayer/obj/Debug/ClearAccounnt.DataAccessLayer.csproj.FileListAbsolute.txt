@@ -1,0 +1,17 @@
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\ClearAccounnt.DataAccessLayer.dll.config
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\ClearAccounnt.DataAccessLayer.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\ClearAccounnt.DataAccessLayer.pdb
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\ClearAccount.BussinessEntities.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\MySql.Data.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\ClearAccount.BussinessEntities.pdb
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\ClearAccount.BussinessEntities.dll.config
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\obj\Debug\ClearAccounnt.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\obj\Debug\ClearAccounnt.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\obj\Debug\ClearAccounnt.DataAccessLayer.csproj.CopyComplete
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\obj\Debug\ClearAccounnt.DataAccessLayer.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccounnt.DataAccessLayer\obj\Debug\ClearAccounnt.DataAccessLayer.pdb

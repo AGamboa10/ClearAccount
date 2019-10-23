@@ -11,3 +11,5 @@ C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.Bu
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.csproj.CopyComplete
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.dll
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.pdb
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\EntityFramework.xml

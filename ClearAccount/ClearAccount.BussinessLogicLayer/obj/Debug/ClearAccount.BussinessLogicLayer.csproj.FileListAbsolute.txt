@@ -13,3 +13,5 @@ C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.Bu
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\obj\Debug\ClearAccount.BussinessLogicLayer.pdb
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\EntityFramework.dll
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessLogicLayer\bin\Debug\MySql.Data.dll

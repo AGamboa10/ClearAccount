@@ -55,16 +55,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClearAccountDbContext.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Cuenta.cs" />
-    <Compile Include="Imagen.cs" />
-    <Compile Include="Nota.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Account.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="Migrations\201910281325409_inicial.cs" />
+    <Compile Include="Migrations\201910281325409_inicial.Designer.cs">
+      <DependentUpon>201910281325409_inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Usuario.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201910281325409_inicial.resx">
+      <DependentUpon>201910281325409_inicial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

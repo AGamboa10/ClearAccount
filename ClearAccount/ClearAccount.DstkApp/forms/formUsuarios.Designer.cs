@@ -36,16 +36,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtAdeudo = new System.Windows.Forms.TextBox();
             this.btnCargo = new System.Windows.Forms.Button();
             this.btnPago = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnModificarGuardar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +58,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(293, 21);
             this.comboBox1.TabIndex = 0;
-            
             // 
             // label1
             // 
@@ -124,40 +125,40 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Correo";
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 104);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(193, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtNombre.Location = new System.Drawing.Point(198, 104);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(193, 20);
+            this.txtNombre.TabIndex = 7;
             // 
-            // textBox2
+            // txtCorreo
             // 
-            this.textBox2.Location = new System.Drawing.Point(198, 229);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(193, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtCorreo.Location = new System.Drawing.Point(198, 229);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(193, 20);
+            this.txtCorreo.TabIndex = 8;
             // 
-            // textBox3
+            // txtDireccion
             // 
-            this.textBox3.Location = new System.Drawing.Point(198, 196);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(193, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtDireccion.Location = new System.Drawing.Point(198, 196);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(193, 20);
+            this.txtDireccion.TabIndex = 9;
             // 
-            // textBox4
+            // txtTelefono
             // 
-            this.textBox4.Location = new System.Drawing.Point(198, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(193, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtTelefono.Location = new System.Drawing.Point(198, 166);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(193, 20);
+            this.txtTelefono.TabIndex = 10;
             // 
-            // textBox5
+            // txtApellido
             // 
-            this.textBox5.Location = new System.Drawing.Point(198, 132);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(193, 20);
-            this.textBox5.TabIndex = 11;
+            this.txtApellido.Location = new System.Drawing.Point(198, 132);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(193, 20);
+            this.txtApellido.TabIndex = 11;
             // 
             // label7
             // 
@@ -170,12 +171,12 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Adeudo";
             // 
-            // textBox6
+            // txtAdeudo
             // 
-            this.textBox6.Location = new System.Drawing.Point(198, 259);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(193, 20);
-            this.textBox6.TabIndex = 14;
+            this.txtAdeudo.Location = new System.Drawing.Point(198, 259);
+            this.txtAdeudo.Name = "txtAdeudo";
+            this.txtAdeudo.Size = new System.Drawing.Size(193, 20);
+            this.txtAdeudo.TabIndex = 14;
             // 
             // btnCargo
             // 
@@ -223,22 +224,52 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // btnModificarGuardar
+            // 
+            this.btnModificarGuardar.FlatAppearance.BorderSize = 0;
+            this.btnModificarGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(122)))));
+            this.btnModificarGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnModificarGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificarGuardar.Image = global::ClearAccount.DstkApp.Properties.Resources.guardar;
+            this.btnModificarGuardar.Location = new System.Drawing.Point(422, 116);
+            this.btnModificarGuardar.Name = "btnModificarGuardar";
+            this.btnModificarGuardar.Size = new System.Drawing.Size(66, 68);
+            this.btnModificarGuardar.TabIndex = 17;
+            this.btnModificarGuardar.Text = "Modificar";
+            this.btnModificarGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnModificarGuardar.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Image = global::ClearAccount.DstkApp.Properties.Resources.borrar;
+            this.btnEliminar.Location = new System.Drawing.Point(422, 206);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(66, 72);
+            this.btnEliminar.TabIndex = 18;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
             // formUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(524, 413);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnModificarGuardar);
             this.Controls.Add(this.btnCargo);
             this.Controls.Add(this.btnPago);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtAdeudo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtApellido);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtDireccion);
+            this.Controls.Add(this.txtCorreo);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -264,15 +295,17 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtAdeudo;
         private System.Windows.Forms.Button btnPago;
         private System.Windows.Forms.Button btnCargo;
+        private System.Windows.Forms.Button btnModificarGuardar;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }

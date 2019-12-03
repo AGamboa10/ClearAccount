@@ -62,10 +62,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formNotas.cs">
+    <Compile Include="forms\formNotas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formNotas.Designer.cs">
+    <Compile Include="forms\formNotas.Designer.cs">
       <DependentUpon>formNotas.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\formCrearUsuario.cs">
@@ -100,7 +100,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formNotas.resx">
+    <EmbeddedResource Include="forms\formNotas.resx">
       <DependentUpon>formNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\formCrearUsuario.resx">

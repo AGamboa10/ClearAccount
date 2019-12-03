@@ -15,9 +15,9 @@ namespace ClearAccount.BussinessEntities
         [Required]
         [DataType(DataType.Text)]
         [StringLength(50)]
-        public string description { get; set; }
+        public string Description { get; set; }
         [DataType(DataType.Date)]
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
 
         //Llaves foraneas
         [Required]

@@ -1277,7 +1277,6 @@ h3,
 h4,
 .h4 {
   font-size: 18px;
-    height: 46px;
 }
 h5,
 .h5 {
@@ -3591,6 +3590,9 @@ tbody.collapse.in {
 .dropup,
 .dropdown {
   position: relative;
+    top: 0px;
+    left: 4px;
+    width: 1068px;
 }
 .dropdown-toggle:focus {
   outline: 0;

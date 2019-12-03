@@ -14,13 +14,15 @@ namespace ClearAccount.BussinessEntities
         [Required]
         public int Id { get; set; }
         [Required]
-        public string user { get; set; }
+        public string NameUser { get; set; }
         [Required]
-        public string password { get; set; }
+        public string Password { get; set; }
 
-        //Llaves foraneas
-        [Required]
-        public int IdClient { get; set; }
-        public Client Client { get; set; }
+        //Crear relaciones entre tablas
+        //ICollections
+        public virtual ICollection<Client> Clients { get; set; }
+
     }
 }
+
+

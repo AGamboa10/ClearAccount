@@ -14,27 +14,32 @@ namespace ClearAccount.BussinessEntities
         public int Id { get; set; }
         [Required]
         [DataType(DataType.Text)]
-        [StringLength(20, ErrorMessage = "Error")]
-        public string name { get; set; }
+        [StringLength(30, ErrorMessage = "Error")]
+        public string Name { get; set; }
+        [Required]
+        [DataType(DataType.Text)]
+        [StringLength(30, ErrorMessage = "Error")]
+        public string Apellido { get; set; }
         [DataType(DataType.PhoneNumber)]
         [StringLength(20, ErrorMessage ="Error")]
-        public string phone { get; set; }
+        public string Phone { get; set; }
         [DataType(DataType.EmailAddress)]
         [StringLength(30, ErrorMessage ="Error")]
-        public string mail { get; set; }
+        public string Mail { get; set; }
         [DataType(DataType.Text)]
         [StringLength(40, ErrorMessage ="Error")]
-        public string address { get; set; }
+        public string Address { get; set; }
 
         //Crear relaicones entre tablas
             //ICollection
         public virtual ICollection<Note> Notes { get; set; }
-        public virtual ICollection<User> Users { get; set; }
         public virtual ICollection<Account> Accounts { get; set; }
             //Llaves foraneas
         [Required]
-        public int idImg{ get; set; }
+        public int IdImg{ get; set; }
         public Image Image { get; set; }
+        public int IdUser { get; set; }
+        public User User { get; set; }
 
        
 

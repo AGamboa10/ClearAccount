@@ -13,7 +13,7 @@ namespace ClearAccount.BussinessEntities
         [Required]
         public int Id { get; set; }
         [Required]
-        public double amount { get; set; }
+        public double Amount { get; set; }
 
         //Llaves foraneas
         [Required]

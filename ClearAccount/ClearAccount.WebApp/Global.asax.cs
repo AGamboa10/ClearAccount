@@ -16,6 +16,14 @@ namespace ClearAccount.WebApp
             // Código que se ejecuta al iniciar la aplicación
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //Creamos variables de estado para la aplicacion
+            Application["App"] = "Para todos";
+            
         }
+
+        //void Session_Start(object sender, EventArgs e)
+        //{
+        //    Session["Login"] = "Por defecto";
+        //}
     }
 }

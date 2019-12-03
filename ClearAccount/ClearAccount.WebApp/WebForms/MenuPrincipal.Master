@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuPrincipal.master.cs" Inherits="ClearAccount.WebApp.MenuPrincipal" %>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Clear Account</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+
+    <%--Librerias de BOOTSTRAP--%>
+    <link href="/Content/bootstrap-theme.css" rel="stylesheet">
+    <link href="/Content/bootstrap-theme.css.map" rel="stylesheet">
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/Content/bootstrap-theme.min.css.map" rel="stylesheet">
+    <link href="/Content/bootstrap.css" rel="stylesheet">
+    <link href="/Content/bootstrap.css.map" rel="stylesheet">
+    <link href="/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/bootstrap.min.css.map" rel="stylesheet">
+
+    <link href="/Content/estilo.css" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    
+
+
+</head>
+
+<body runat="server" style="background: #FFD148" >
+    <form runat="server">
+
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+                <a class="navbar-brand" href="#">ClearAccount</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="">
+                    <ul class="navbar-nav ml-auto topnav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Clientes.aspx">Clientes </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AgregarCliente.aspx">Agregar Cliente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Notas.aspx">Notas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AgregarNota.aspx">Agregar nota</a>
+                        </li>
+                       
+                    </ul>
+                    <button runat="server" id="bLo">Salir</button>
+                </div>
+
+            </nav>
+        </div>
+
+        <%--Aqui aparecen todos los Web Forms--%>
+        <div class="container body-content" style="background: #fff690">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+
+    <%--<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/Scripts/menu.js"></script>--%>
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.intellisense.js"></script>
+    <script src="/Scripts/jquery-3.3.1.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.map"></script>
+    <script src="/Scripts/jquery-3.3.1.slim.js"></script>
+    <script src="/Scripts/jquery-3.3.1.slim.min.js"></script>
+    
+    <script src="/Scripts/jquery-3.3.1.slim.min.map"></script>
+    
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+</html>

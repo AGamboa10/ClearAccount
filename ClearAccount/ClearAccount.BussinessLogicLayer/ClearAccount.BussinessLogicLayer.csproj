@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,12 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountBLL.cs" />
+    <Compile Include="ClientBLL.cs" />
+    <Compile Include="ImageBLL.cs" />
+    <Compile Include="NoteBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserBLL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClearAccounnt.DataAccessLayer\ClearAccounnt.DataAccessLayer.csproj">
+    <ProjectReference Include="..\ClearAccounnt.DataAccessLayer\ClearAccount.DataAccessLayer.csproj">
       <Project>{550f178d-2e99-4fab-90b7-ce770cef4844}</Project>
-      <Name>ClearAccounnt.DataAccessLayer</Name>
+      <Name>ClearAccount.DataAccessLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\ClearAccount.BussinessEntities\ClearAccount.BussinessEntities.csproj">
       <Project>{d0cd3a68-7d33-4670-96f2-3230f4a52114}</Project>

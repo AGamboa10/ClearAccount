@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FECF3507-458A-4A00-A5FB-5304883741AE}</ProjectGuid>
+    <ProjectGuid>{60CFF381-E244-4E43-9CC7-42F93AA8B5AD}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -117,15 +117,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\estilo.css" />
+    <Content Include="Content\fonts.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\icomoon.svg" />
+    <Content Include="Content\Login.css" />
+    <Content Include="WebForms\RegistroUsuarios1.aspx" />
+    <Content Include="WebForms\Cargo.aspx" />
+    <Content Include="WebForms\Pago.aspx" />
+    <Content Include="WebForms\Clientes.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -135,6 +141,14 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="fonts\icomoon.eot" />
+    <Content Include="fonts\icomoon.ttf" />
+    <Content Include="fonts\icomoon.woff" />
+    <Content Include="WebForms\AgregarCliente.aspx" />
+    <Content Include="WebForms\AgregarNota.aspx" />
+    <Content Include="WebForms\Notas.aspx" />
+    <Content Include="WebForms\LoginWEB.aspx" />
+    <Content Include="WebForms\MenuPrincipal.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -142,6 +156,7 @@
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\menu.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
@@ -164,47 +179,80 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="WebForms\RegistroUsuarios1.aspx.cs">
+      <DependentUpon>RegistroUsuarios1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="WebForms\RegistroUsuarios1.aspx.designer.cs">
+      <DependentUpon>RegistroUsuarios1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Cargo.aspx.cs">
+      <DependentUpon>Cargo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Cargo.aspx.designer.cs">
+      <DependentUpon>Cargo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Pago.aspx.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Pago.aspx.designer.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Clientes.aspx.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Clientes.aspx.designer.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="WebForms\AgregarCliente.aspx.cs">
+      <DependentUpon>AgregarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\AgregarCliente.aspx.designer.cs">
+      <DependentUpon>AgregarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\AgregarNota.aspx.cs">
+      <DependentUpon>AgregarNota.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\AgregarNota.aspx.designer.cs">
+      <DependentUpon>AgregarNota.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Notas.aspx.cs">
+      <DependentUpon>Notas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Notas.aspx.designer.cs">
+      <DependentUpon>Notas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\LoginWEB.aspx.cs">
+      <DependentUpon>LoginWEB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\LoginWEB.aspx.designer.cs">
+      <DependentUpon>LoginWEB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\MenuPrincipal.Master.cs">
+      <DependentUpon>MenuPrincipal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\MenuPrincipal.Master.designer.cs">
+      <DependentUpon>MenuPrincipal.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -250,7 +298,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52202</DevelopmentServerPort>
+          <DevelopmentServerPort>49496</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>https://localhost:44334/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

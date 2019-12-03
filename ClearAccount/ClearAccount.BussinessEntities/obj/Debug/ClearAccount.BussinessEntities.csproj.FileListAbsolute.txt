@@ -12,5 +12,5 @@ C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.Bu
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessEntities\obj\Debug\ClearAccount.BussinessEntities.dll
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessEntities\obj\Debug\ClearAccount.BussinessEntities.pdb
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessEntities\obj\Debug\ClearAccount.BussinessEntities.csprojAssemblyReference.cache
-C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessEntities\obj\Debug\ClearAccount.BussinessEntities.Migrations.inicial.resources
+C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessEntities\obj\Debug\ClearAccount.BussinessEntities.Migrations.initial.resources
 C:\Users\LATIRUDE CORE i5\source\repos\ClearAccount\ClearAccount\ClearAccount.BussinessEntities\obj\Debug\ClearAccount.BussinessEntities.csproj.GenerateResource.cache

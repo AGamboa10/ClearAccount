@@ -13,7 +13,7 @@ namespace ClearAccount.BussinessEntities
         [Required]
         public int Id { get; set; }
         [Required]
-        public byte[] image { get; set; }
+        public byte[] ImageUrl { get; set; }
 
         //Crear relaciones entre tablas
             //ICollection

@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 using System.Configuration;
 using System.Data;
 using System.Data.Entity;
-using MySql.Data;
-using MySql.Data.Entity;
 using ClearAccount.BussinessEntities;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Validation;
-using System.Globalization;
+
 
 namespace ClearAccount.DataAccessLayer
 {
@@ -93,45 +91,50 @@ namespace ClearAccount.DataAccessLayer
 
         #region BuscarCliente
 
-        public static DataTable BuscarCliente(int idUsuario)
+        public static DataTable BuscarClienteDAL(int idUsuario)
         {
             
             bool isExistente = false;
             DataTable dt = new DataTable();
-
-
+            Client client = new Client();
+            
+            
             isExistente = Database.Exists(dbContext.Database.Connection);
 
             if (isExistente)
             {
                 var query = (from c in dbContext.Clients
                              where c.IdUser == idUsuario
-                                 select new
-                                 {
-                                     c.Name,
-                                     c.Apellido
-                                 }).ToList();
-                dt.Columns.Add("Clientes");
+                             select new
+                             {
+                                 c.Id,
+                                 c.Name,
+                                 c.Apellido
+                             }).ToList();
+                dt.Columns.Add("Cliente");
+                dt.Columns.Add("Id");
                 foreach (var item in query)
                 {
                     //crea un nuevo row
                     DataRow row = dt.NewRow();
-                    
+
                     //Asignar el dato a cada columna  de la row
-                    row["Clientes"] = item.Name + item.Apellido;
+                    row["Cliente"] = item.Name + " " + item.Apellido;
+
+                    row["Id"] = item.Id;
+
                     dt.Rows.Add(row);
                 }
-
+                
             }
             
-
             return dt;
         }
 
         #endregion
 
         #region HandleDbUpdateException
-        private static Exception HandleDbUpdateException(DbUpdateException dbu)
+        private static Exception HandleDbUpdateException(DbUpdateException dbu) 
         {
             var builder = new StringBuilder("A DbUpdateException was caught while saving changes. ");
 

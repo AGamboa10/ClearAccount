@@ -31,11 +31,11 @@ namespace ClearAccount.BussinessLogicLayer
 
         #region BuscarCliente
 
-        public static DataTable BuscarCliente(int idUsuario)
+        public static DataTable BuscarClienteBLL(int idUsuario)
         {
             //List<string> ClienteNombre = new List<string>();
             DataTable dt = new DataTable();
-            dt = DataAccessLayer.ClientDAL.BuscarCliente(idUsuario);
+            dt = DataAccessLayer.ClientDAL.BuscarClienteDAL(idUsuario);
             return dt;
 
 

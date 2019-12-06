@@ -29,7 +29,7 @@ namespace ClearAccount.DataAccessLayer
                 try
                 {
                     //Para guardar erroes que vayan saliendo
-                   
+                    
                     //Aqui va la consulta
                     dbCtx.Users.Add(user);
                     int rowAffected = dbCtx.SaveChanges(); //Actualiza la base de datos
@@ -82,6 +82,7 @@ namespace ClearAccount.DataAccessLayer
             return message;
 
         }
+        #endregion
 
         public static int Loguearse(string user, string paswword)
         {
@@ -100,7 +101,7 @@ namespace ClearAccount.DataAccessLayer
         }
 
 
-        #endregion
+        
 
         #region HandleDbUpdateException
         private static Exception HandleDbUpdateException(DbUpdateException dbu)

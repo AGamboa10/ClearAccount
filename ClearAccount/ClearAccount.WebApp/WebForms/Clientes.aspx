@@ -5,68 +5,63 @@
     <div id="Container">
         <div class="row">
 
-            <div class="col-6" style="padding-left: 10%">
+            <div class="col-6 dropdown" style="padding-left: 10%">
                 <h1><strong>Lista de clientes</strong></h1>
                 <br />
                 <br />
 
                 <!--Este es el dropdown-->
-                <asp:DropDownList ID="DropClient"
-                    runat="server" Height="16px" Width="187px">
 
-                    <asp:ListItem Selected="True" Value="White"> White </asp:ListItem>
-                    <asp:ListItem Value="Silver"> Silver </asp:ListItem>
-                    <asp:ListItem Value="DarkGray"> Dark Gray </asp:ListItem>
-                    <asp:ListItem Value="Khaki"> Khaki </asp:ListItem>
-                    <asp:ListItem Value="DarkKhaki"> Dark Khaki </asp:ListItem>
-
-                </asp:DropDownList>
-
-            <!--Label y Text para nombre del cliente-->
-            <div class="form-group row" style="padding-bottom: 5%">
-                <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
-                <div class="col-sm-10">
-                    <input id="inputNombre" class="form-control" placeholder="Nombres..." disabled runat="server">
+                <div class="dropdown">
+                    <asp:DropDownList ID="DropClient"
+                        runat="server" OnSelectedIndexChanged="dropdownClientes_ServerClick" CssClass="form-control">
+                    </asp:DropDownList>
                 </div>
-            </div>
-
-            <!--Label y Text para nombre del cliente-->
-            <div class="form-group row" style="padding-bottom: 5%">
-                <label for="inputApellido" class="col-sm-2 col-form-label">Apellidos</label>
-                <div class="col-sm-10">
-                    <input id="inputApellido" class="form-control" placeholder="Apellidos..." disabled runat="server">
+                <!--Label y Text para nombre del cliente-->
+                <div class="form-group row" style="padding-bottom: 5%; padding-top: 5%">
+                    <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+                    <div class="col-sm-10">
+                        <input id="inputNombre" class="form-control" placeholder="Nombres..." runat="server">
+                    </div>
                 </div>
-            </div>
 
-            <!--Label y Text para telefono del cliente-->
-            <div class="form-group row" style="padding-bottom: 5%">
-                <label for="inputTelefono" class="col-sm-2 col-form-label">#Telefono</label>
-                <div class="col-sm-10">
-                    <input id="inputTelefono" class="form-control" placeholder="Telefono" disabled runat="server">
+                <!--Label y Text para nombre del cliente-->
+                <div class="form-group row" style="padding-bottom: 5%">
+                    <label for="inputApellido" class="col-sm-2 col-form-label">Apellidos</label>
+                    <div class="col-sm-10">
+                        <input id="inputApellido" class="form-control" placeholder="Apellidos..." runat="server">
+                    </div>
                 </div>
-            </div>
 
-            <!--Label y Text para direccion del cliente-->
-            <div class="form-group row" style="padding-bottom: 5%">
-                <label for="inputDireccion" class="col-sm-2 col-form-label">Direccion</label>
-                <div class="col-sm-10">
-                    <input id="inputDireccion" class="form-control" placeholder="Direccion completa..." disabled runat="server">
+                <!--Label y Text para telefono del cliente-->
+                <div class="form-group row" style="padding-bottom: 5%">
+                    <label for="inputTelefono" class="col-sm-2 col-form-label">#Telefono</label>
+                    <div class="col-sm-10">
+                        <input id="inputTelefono" class="form-control" placeholder="Telefono" runat="server">
+                    </div>
                 </div>
-            </div>
 
-            <!--Label y Text para correo electronio del cliente-->
-            <div class="form-group row" style="padding-bottom: 5%">
-                <label for="inputCorreo" class="col-sm-2 col-form-label">Correo</label>
-                <div class="col-sm-10">
-                    <input id="inputCorreo" class="form-control" placeholder="nombre@ejemplo.com" disabled runat="server">
+                <!--Label y Text para direccion del cliente-->
+                <div class="form-group row" style="padding-bottom: 5%">
+                    <label for="inputDireccion" class="col-sm-2 col-form-label">Direccion</label>
+                    <div class="col-sm-10">
+                        <input id="inputDireccion" class="form-control" placeholder="Direccion completa..." runat="server">
+                    </div>
                 </div>
-            </div>
-            <!--contenedor de los botones-->
 
-            <div style="padding-left: 20%">
-                <button onclick="location.href='https://localhost:44334/WebForms/Pago'" id="btnPago" class="btn btn-primary btn-lg" type="submit" runat="server">Pago</button>
-                <button onclick="location.href='https://localhost:44334/WebForms/Cargo' " id="btnCargo" class="btn btn-danger btn-lg" type="submit">Cargo</button>
-            </div>
+                <!--Label y Text para correo electronio del cliente-->
+                <div class="form-group row" style="padding-bottom: 5%">
+                    <label for="inputCorreo" class="col-sm-2 col-form-label">Correo</label>
+                    <div class="col-sm-10">
+                        <input id="inputCorreo" class="form-control" placeholder="nombre@ejemplo.com" runat="server">
+                    </div>
+                </div>
+                <!--contenedor de los botones-->
+
+                <div style="padding-left: 20%">
+                    <button onclick="location.href='https://localhost:44334/WebForms/Pago'" id="btnPago" class="btn btn-primary btn-lg" type="submit" runat="server">Pago</button>
+                    <button onclick="location.href='https://localhost:44334/WebForms/Cargo' " id="btnCargo" class="btn btn-danger btn-lg" type="submit">Cargo</button>
+                </div>
 
             </div>
 
@@ -92,7 +87,7 @@
                 <br />
                 <br />
                 <div>
-                    <button id="btnGuardar" class="btn btn-primary btn-block" type="submit" disabled>Guardar</button>
+                    <button id="btnGuardar" class="btn btn-primary btn-block" type="submit" runat="server">Guardar</button>
                 </div>
                 <br />
                 <div>
